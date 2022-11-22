@@ -24,7 +24,7 @@ describe("Locale it-IT", () => {
 	it("check names definitions", () => {
 		expect(fakerator.names.firstName()).to.be.equal("Nicoletta");
 		expect(fakerator.names.lastName()).to.be.equal("Rossetti");
-		expect(fakerator.names.name()).to.be.equal("Emanuel D\'angelo");
+		expect(fakerator.names.name()).to.be.equal("Emanuel D'angelo");
 	});
 
 	it("check company definitions", () => {
